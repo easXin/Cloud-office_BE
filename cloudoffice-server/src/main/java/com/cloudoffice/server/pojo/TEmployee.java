@@ -19,92 +19,92 @@ public class TEmployee implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    @ApiModelProperty(value = "员工编号")
+    @ApiModelProperty(value = "eid")
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    @ApiModelProperty(value = "员工姓名")
+    @ApiModelProperty(value = "name")
     private String name;
 
-    @ApiModelProperty(value = "性别")
+    @ApiModelProperty(value = "gender")
     private String gender;
 
-    @ApiModelProperty(value = "出生日期")
+    @ApiModelProperty(value = "birthday")
     private LocalDate birthday;
 
-    @ApiModelProperty(value = "身份证号")
+    @ApiModelProperty(value = "idCard")
     private String idCard;
 
-    @ApiModelProperty(value = "婚姻状况")
-    private String wedlock;
+    @ApiModelProperty(value = "marriageStatus")
+    private String marriageStatus;
 
-    @ApiModelProperty(value = "民族")
+    @ApiModelProperty(value = "nationId")
     private Integer nationId;
 
-    @ApiModelProperty(value = "籍贯")
+    @ApiModelProperty(value = "nativePlace")
     private String nativePlace;
 
-    @ApiModelProperty(value = "政治面貌")
+    @ApiModelProperty(value = "politicId")
     private Integer politicId;
 
-    @ApiModelProperty(value = "邮箱")
+    @ApiModelProperty(value = "email")
     private String email;
 
-    @ApiModelProperty(value = "电话号码")
+    @ApiModelProperty(value = "phone")
     private String phone;
 
-    @ApiModelProperty(value = "联系地址")
+    @ApiModelProperty(value = "address")
     private String address;
 
-    @ApiModelProperty(value = "所属部门")
+    @ApiModelProperty(value = "departmentId")
     private Integer departmentId;
 
-    @ApiModelProperty(value = "职称ID")
+    @ApiModelProperty(value = "jobLevelId")
     private Integer jobLevelId;
 
-    @ApiModelProperty(value = "职位ID")
+    @ApiModelProperty(value = "posId")
     private Integer posId;
 
-    @ApiModelProperty(value = "聘用形式")
+    @ApiModelProperty(value = "engageForm")
     private String engageForm;
 
-    @ApiModelProperty(value = "最高学历")
-    private String tiptopDegree;
+    @ApiModelProperty(value = "topDegree")
+    private String topDegree;
 
-    @ApiModelProperty(value = "所属专业")
+    @ApiModelProperty(value = "specialty")
     private String specialty;
 
-    @ApiModelProperty(value = "毕业院校")
+    @ApiModelProperty(value = "school")
     private String school;
 
-    @ApiModelProperty(value = "入职日期")
+    @ApiModelProperty(value = "beginDate")
     private LocalDate beginDate;
 
-    @ApiModelProperty(value = "在职状态")
+    @ApiModelProperty(value = "workState")
     private String workState;
 
-    @ApiModelProperty(value = "工号")
+    @ApiModelProperty(value = "workID")
     private String workID;
 
-    @ApiModelProperty(value = "合同期限")
+    @ApiModelProperty(value = "contractTerm")
     private Double contractTerm;
 
-    @ApiModelProperty(value = "转正日期")
+    @ApiModelProperty(value = "conversionTime")
     private LocalDate conversionTime;
 
-    @ApiModelProperty(value = "离职日期")
+    @ApiModelProperty(value = "notWorkDate")
     private LocalDate notWorkDate;
 
-    @ApiModelProperty(value = "合同起始日期")
+    @ApiModelProperty(value = "beginContract")
     private LocalDate beginContract;
 
-    @ApiModelProperty(value = "合同终止日期")
+    @ApiModelProperty(value = "endContract")
     private LocalDate endContract;
 
-    @ApiModelProperty(value = "工龄")
+    @ApiModelProperty(value = "workAge")
     private Integer workAge;
 
-    @ApiModelProperty(value = "工资账套ID")
+    @ApiModelProperty(value = "salaryId")
     private Integer salaryId;
 
 

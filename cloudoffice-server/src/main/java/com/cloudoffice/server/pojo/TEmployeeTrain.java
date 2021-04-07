@@ -23,16 +23,16 @@ public class TEmployeeTrain implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    @ApiModelProperty(value = "员工编号")
+    @ApiModelProperty(value = "eid")
     private Integer eid;
 
-    @ApiModelProperty(value = "培训日期")
+    @ApiModelProperty(value = "trainDate")
     private LocalDate trainDate;
 
-    @ApiModelProperty(value = "培训内容")
+    @ApiModelProperty(value = "trainContent")
     private String trainContent;
 
-    @ApiModelProperty(value = "备注")
+    @ApiModelProperty(value = "remark")
     private String remark;
 
 

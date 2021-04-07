@@ -22,11 +22,11 @@ public class TAdminRole implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    @ApiModelProperty(value = "用户id")
+    @ApiModelProperty(value = "adminId")
     private Integer adminId;
 
-    @ApiModelProperty(value = "权限id")
-    private Integer rid;
+    @ApiModelProperty(value = "authId")
+    private Integer authId;
 
 
 }

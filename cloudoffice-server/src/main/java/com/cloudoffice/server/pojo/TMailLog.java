@@ -17,31 +17,31 @@ public class TMailLog implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    @ApiModelProperty(value = "消息id")
+    @ApiModelProperty(value = "msgId")
     private String msgId;
 
-    @ApiModelProperty(value = "接收员工id")
+    @ApiModelProperty(value = "eid")
     private Integer eid;
 
-    @ApiModelProperty(value = "状态（0:消息投递中 1:投递成功 2:投递失败）")
+    @ApiModelProperty(value = "status")
     private Integer status;
 
-    @ApiModelProperty(value = "路由键")
+    @ApiModelProperty(value = "routeKey")
     private String routeKey;
 
-    @ApiModelProperty(value = "交换机")
+    @ApiModelProperty(value = "exchange")
     private String exchange;
 
-    @ApiModelProperty(value = "重试次数")
+    @ApiModelProperty(value = "count")
     private Integer count;
 
-    @ApiModelProperty(value = "重试时间")
+    @ApiModelProperty(value = "tryTime")
     private LocalDateTime tryTime;
 
-    @ApiModelProperty(value = "创建时间")
+    @ApiModelProperty(value = "createTime")
     private LocalDateTime createTime;
 
-    @ApiModelProperty(value = "更新时间")
+    @ApiModelProperty(value = "updateTime")
     private LocalDateTime updateTime;
 
 

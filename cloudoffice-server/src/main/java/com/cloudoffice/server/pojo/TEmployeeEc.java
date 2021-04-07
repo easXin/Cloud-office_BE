@@ -16,29 +16,29 @@ import java.time.LocalDate;
 @TableName("t_employee_ec")
 @ApiModel(value="TEmployeeEc", description="")
 public class TEmployeeEc implements Serializable {
-
+    // fine
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty(value = "id")
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    @ApiModelProperty(value = "员工编号")
+    @ApiModelProperty(value = "eid")
     private Integer eid;
 
-    @ApiModelProperty(value = "奖罚日期")
+    @ApiModelProperty(value = "ecDate")
     private LocalDate ecDate;
 
-    @ApiModelProperty(value = "奖罚原因")
+    @ApiModelProperty(value = "ecReason")
     private String ecReason;
 
-    @ApiModelProperty(value = "奖罚分")
+    @ApiModelProperty(value = "ecPoint")
     private Integer ecPoint;
 
-    @ApiModelProperty(value = "奖罚类别，0：奖，1：罚")
+    @ApiModelProperty(value = "ecType")
     private Integer ecType;
 
-    @ApiModelProperty(value = "备注")
+    @ApiModelProperty(value = "remark")
     private String remark;
 
 

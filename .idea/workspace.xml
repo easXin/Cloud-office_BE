@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f0f27b-826f-49b1-8086-5a7f4bf10afc" name="Default Changelist" comment="" />
+    <list default="true" id="50f0f27b-826f-49b1-8086-5a7f4bf10afc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAdminRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAdminRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAppraise.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAppraise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployeeEc.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployeeEc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployeeRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployeeRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployeeTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployeeTrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TJoblevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TJoblevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TMailLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TMailLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TSalary.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +31,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1qfNahVc3Q12M7kSSXMy8suipct" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +47,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloud" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudoffice-server/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -97,11 +116,22 @@
       <workItem from="1617466751535" duration="5594000" />
       <workItem from="1617475827782" duration="68000" />
       <workItem from="1617746000193" duration="1180000" />
-      <workItem from="1617747958461" duration="12879000" />
+      <workItem from="1617747958461" duration="14075000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -23,22 +23,22 @@ public class TEmployeeRemove implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    @ApiModelProperty(value = "员工id")
+    @ApiModelProperty(value = "eid")
     private Integer eid;
 
-    @ApiModelProperty(value = "调动后部门")
+    @ApiModelProperty(value = "afterDepId")
     private Integer afterDepId;
 
-    @ApiModelProperty(value = "调动后职位")
+    @ApiModelProperty(value = "afterJobId")
     private Integer afterJobId;
 
-    @ApiModelProperty(value = "调动日期")
+    @ApiModelProperty(value = "removeDate")
     private LocalDate removeDate;
 
-    @ApiModelProperty(value = "调动原因")
+    @ApiModelProperty(value = "reason")
     private String reason;
 
-    @ApiModelProperty(value = "备注")
+    @ApiModelProperty(value = "remark")
     private String remark;
 
 

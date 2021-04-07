@@ -17,26 +17,26 @@ import java.time.LocalDate;
 @TableName("t_appraise")
 @ApiModel(value="TAppraise", description="")
 public class TAppraise implements Serializable {
-
+    // check
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty(value = "id")
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    @ApiModelProperty(value = "员工id")
+    @ApiModelProperty(value = "eid")
     private Integer eid;
 
-    @ApiModelProperty(value = "考评日期")
+    @ApiModelProperty(value = "appDate")
     private LocalDate appDate;
 
-    @ApiModelProperty(value = "考评结果")
+    @ApiModelProperty(value = "appResult")
     private String appResult;
 
-    @ApiModelProperty(value = "考评内容")
+    @ApiModelProperty(value = "appContent")
     private String appContent;
 
-    @ApiModelProperty(value = "备注")
+    @ApiModelProperty(value = "remark")
     private String remark;
 
 

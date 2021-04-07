@@ -23,16 +23,16 @@ public class TJoblevel implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    @ApiModelProperty(value = "职称名称")
-    private String name;
+    @ApiModelProperty(value = "occupation")
+    private String occupation;
 
-    @ApiModelProperty(value = "职称等级")
+    @ApiModelProperty(value = "titleLevel")
     private String titleLevel;
 
-    @ApiModelProperty(value = "创建时间")
+    @ApiModelProperty(value = "createDate")
     private LocalDateTime createDate;
 
-    @ApiModelProperty(value = "是否启用")
+    @ApiModelProperty(value = "enabled")
     private Boolean enabled;
 
 

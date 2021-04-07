@@ -29,25 +29,25 @@ public class TMenu implements Serializable {
     @ApiModelProperty(value = "path")
     private String path;
 
-    @ApiModelProperty(value = "组件")
+    @ApiModelProperty(value = "component")
     private String component;
 
-    @ApiModelProperty(value = "菜单名")
+    @ApiModelProperty(value = "name")
     private String name;
 
-    @ApiModelProperty(value = "图标")
+    @ApiModelProperty(value = "iconCls")
     private String iconCls;
 
-    @ApiModelProperty(value = "是否保持激活")
+    @ApiModelProperty(value = "keepAlive")
     private Boolean keepAlive;
 
-    @ApiModelProperty(value = "是否要求权限")
+    @ApiModelProperty(value = "requireAuth")
     private Boolean requireAuth;
 
-    @ApiModelProperty(value = "父id")
+    @ApiModelProperty(value = "parentId")
     private Integer parentId;
 
-    @ApiModelProperty(value = "是否启用")
+    @ApiModelProperty(value = "enabled")
     private Boolean enabled;
 
 

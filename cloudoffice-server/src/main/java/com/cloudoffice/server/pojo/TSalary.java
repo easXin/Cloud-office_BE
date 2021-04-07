@@ -39,19 +39,19 @@ public class TSalary implements Serializable {
     @ApiModelProperty(value = "allSalary")
     private Integer allSalary;
 
-    @ApiModelProperty(value = "养老金基数")
+    @ApiModelProperty(value = "pensionBase")
     private Integer pensionBase;
 
-    @ApiModelProperty(value = "养老金比率")
+    @ApiModelProperty(value = "pensionPer")
     private Float pensionPer;
 
-    @ApiModelProperty(value = "启用时间")
+    @ApiModelProperty(value = "createDate")
     private LocalDateTime createDate;
 
-    @ApiModelProperty(value = "医疗基数")
+    @ApiModelProperty(value = "medicalBase")
     private Integer medicalBase;
 
-    @ApiModelProperty(value = "医疗保险比率")
+    @ApiModelProperty(value = "medicalPer")
     private Float medicalPer;
 
     @ApiModelProperty(value = "公积金基数")

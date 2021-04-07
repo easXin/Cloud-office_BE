@@ -23,20 +23,20 @@ public class TDepartment implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    @ApiModelProperty(value = "部门名称")
-    private String name;
+    @ApiModelProperty(value = "depName")
+    private String depName;
 
-    @ApiModelProperty(value = "父id")
+    @ApiModelProperty(value = "parentId")
     private Integer parentId;
 
-    @ApiModelProperty(value = "路径")
+    @ApiModelProperty(value = "depPath")
     private String depPath;
 
-    @ApiModelProperty(value = "是否启用")
+    @ApiModelProperty(value = "enabled")
     private Boolean enabled;
 
-    @ApiModelProperty(value = "是否上级")
-    private Boolean isParent;
+    @ApiModelProperty(value = "isSupervisor")
+    private Boolean isSupervisor;
 
 
 }
