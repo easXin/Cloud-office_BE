@@ -1,0 +1,25 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloudoffice?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=EST
+    username: root
+    password: 1234
+    hikari:
+      pool-name: HikariCP
+      minimum-idle: 10
+      idle-timeout: 200000
+      maximum-pool-size: 15
+      auto-commit: true
+      max-lifetime: 200000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/Mapper.xml
+  type-aliases-package: com.cloudoffice.server.pojo
+  configuration:
+    map-underscore-to-camel-case: false
+logging:
+  level:
+    com.cloudoffice.server.mapper: debug

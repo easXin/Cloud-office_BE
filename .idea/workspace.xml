@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50f0f27b-826f-49b1-8086-5a7f4bf10afc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qfNahVc3Q12M7kSSXMy8suipct" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudoffice-server/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\codin\OneDrive\Desktop\FrameWork\cloudoffice\cloudoffice-server\src\main\resources" />
+      <recent name="C:\Users\codin\OneDrive\Desktop\FrameWork\cloudoffice\cloudoffice-server\src\main\java\com\cloudoffice\server" />
+      <recent name="C:\Users\codin\OneDrive\Desktop\FrameWork\cloudoffice\cloudoffice-server\src\main\resources\mapper" />
+      <recent name="C:\Users\codin\OneDrive\Desktop\FrameWork\cloudoffice\cloudoffice-server\src\main\java\com\cloudoffice\server\service\impl" />
+      <recent name="C:\Users\codin\OneDrive\Desktop\FrameWork\cloudoffice\cloudoffice-server\src\main\java\com\cloudoffice\server\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CodeGenerator">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloudoffice.generator.CodeGenerator" />
+      <module name="cloudoffice-codeGenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloudoffice.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudofficeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudoffice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.cloudoffice.CloudofficeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudofficeServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudoffice-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.cloudofficeserver.CloudofficeServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50f0f27b-826f-49b1-8086-5a7f4bf10afc" name="Default Changelist" comment="" />
+      <created>1617466750332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617466750332</updated>
+      <workItem from="1617466751535" duration="5594000" />
+      <workItem from="1617475827782" duration="68000" />
+      <workItem from="1617746000193" duration="1180000" />
+      <workItem from="1617747958461" duration="12879000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
