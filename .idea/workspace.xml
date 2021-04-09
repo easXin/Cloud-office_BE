@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50f0f27b-826f-49b1-8086-5a7f4bf10afc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/config/security/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/service/pojo/RespBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAdminRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAdminRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAppraise.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAppraise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TDepartment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployeeEc.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployeeEc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployeeRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployeeRemove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployeeTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TEmployeeTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TJoblevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TJoblevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TMailLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TMailLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/cloudoffice-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/cloudoffice-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +26,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1qfNahVc3Q12M7kSSXMy8suipct" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,6 +61,13 @@
       <recent name="C:\Users\codin\OneDrive\Desktop\FrameWork\cloudoffice\cloudoffice-server\src\main\java\com\cloudoffice\server\mapper" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Application.CodeGenerator">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cloudoffice.generator.CodeGenerator" />
@@ -81,6 +89,13 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudOfficeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudoffice-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloudoffice.server.CloudOfficeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,7 +131,9 @@
       <workItem from="1617466751535" duration="5594000" />
       <workItem from="1617475827782" duration="68000" />
       <workItem from="1617746000193" duration="1180000" />
-      <workItem from="1617747958461" duration="14075000" />
+      <workItem from="1617747958461" duration="15424000" />
+      <workItem from="1617924886632" duration="315000" />
+      <workItem from="1617925400305" duration="7316000" />
     </task>
     <servers />
   </component>
@@ -133,5 +150,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
