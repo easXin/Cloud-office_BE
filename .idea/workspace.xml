@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50f0f27b-826f-49b1-8086-5a7f4bf10afc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/config/security/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/service/pojo/RespBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/AdminLoginParam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/cloudoffice-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/cloudoffice-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/TAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/service/TAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/service/TAdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/service/impl/TAdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/service/impl/TAdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/service/pojo/RespBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudoffice-server/src/main/java/com/cloudoffice/server/pojo/RespBean.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1qfNahVc3Q12M7kSSXMy8suipct" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -133,7 +136,7 @@
       <workItem from="1617746000193" duration="1180000" />
       <workItem from="1617747958461" duration="15424000" />
       <workItem from="1617924886632" duration="315000" />
-      <workItem from="1617925400305" duration="7316000" />
+      <workItem from="1617925400305" duration="14760000" />
     </task>
     <servers />
   </component>

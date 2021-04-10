@@ -1,4 +1,4 @@
-package com.cloudoffice.server.service.pojo;
+package com.cloudoffice.server.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class RespBean {
+    // status code -> 200 404 503
     private long code;
     private String message;
     private Object obj;
